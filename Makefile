@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra
 
 # Source files and object files
-SRC_FILES = hi.c
+SRC_FILES = src
 OBJ_FILES = $(SRC_FILES:.c=.o)
 
 # Output executable
