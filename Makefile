@@ -13,7 +13,7 @@ EXECUTABLE = hi
 all: $(EXECUTABLE)
 
 # Rule to build the executable
-$(EXECUTABLE): $(OBJ_FILES)
+$(EXECUTABLE): $(OBJ_FILES) 
     $(CC) $(CFLAGS) -o $@ $^
 
 # Rule to compile source files into object files
